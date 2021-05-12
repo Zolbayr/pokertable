@@ -1,0 +1,359 @@
+.card {
+  background-image: url(../img/poker/cards-min.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.table-card {
+  position: relative;
+  width: 90px;
+  height: 127px;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.table-card .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.table-card .card-front {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.table-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.table-card .card-back {
+  z-index: 99;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-_0000_C-K {
+  width: 90px;
+  height: 127px;
+  background-position: 0 0;
+}
+
+.card-_0001_C-Q {
+  width: 90px;
+  height: 127px;
+  background-position: -90px 0;
+}
+
+.card-_0002_C-J {
+  width: 90px;
+  height: 127px;
+  background-position: -180px 0;
+}
+
+.card-_0003_C-10 {
+  width: 90px;
+  height: 127px;
+  background-position: -270px 0;
+}
+
+.card-_0004_C-9 {
+  width: 90px;
+  height: 127px;
+  background-position: -360px 0;
+}
+
+.card-_0005_C-8 {
+  width: 90px;
+  height: 127px;
+  background-position: -450px 0;
+}
+
+.card-_0006_C-7 {
+  width: 90px;
+  height: 127px;
+  background-position: -540px 0;
+}
+
+.card-_0007_C-6 {
+  width: 90px;
+  height: 127px;
+  background-position: -630px 0;
+}
+
+.card-_0008_C-5 {
+  width: 90px;
+  height: 127px;
+  background-position: 0 -127px;
+}
+
+.card-_0009_C-4 {
+  width: 90px;
+  height: 127px;
+  background-position: -90px -127px;
+}
+
+.card-_0010_C-3 {
+  width: 90px;
+  height: 127px;
+  background-position: -180px -127px;
+}
+
+.card-_0011_C-2 {
+  width: 90px;
+  height: 127px;
+  background-position: -270px -127px;
+}
+
+.card-_0012_C-A {
+  width: 90px;
+  height: 127px;
+  background-position: -360px -127px;
+}
+
+.card-_0013_D-K {
+  width: 90px;
+  height: 127px;
+  background-position: -450px -127px;
+}
+
+.card-_0014_D-Q {
+  width: 90px;
+  height: 127px;
+  background-position: -540px -127px;
+}
+
+.card-_0015_D-J {
+  width: 90px;
+  height: 127px;
+  background-position: -630px -127px;
+}
+
+.card-_0016_D-10 {
+  width: 90px;
+  height: 127px;
+  background-position: 0 -254px;
+}
+
+.card-_0017_D-9 {
+  width: 90px;
+  height: 127px;
+  background-position: -90px -254px;
+}
+
+.card-_0018_D-8 {
+  width: 90px;
+  height: 127px;
+  background-position: -180px -254px;
+}
+
+.card-_0019_D-7 {
+  width: 90px;
+  height: 127px;
+  background-position: -270px -254px;
+}
+
+.card-_0020_D-6 {
+  width: 90px;
+  height: 127px;
+  background-position: -360px -254px;
+}
+
+.card-_0021_D-5 {
+  width: 90px;
+  height: 127px;
+  background-position: -450px -254px;
+}
+
+.card-_0022_D-4 {
+  width: 90px;
+  height: 127px;
+  background-position: -540px -254px;
+}
+
+.card-_0023_D-3 {
+  width: 90px;
+  height: 127px;
+  background-position: -630px -254px;
+}
+
+.card-_0024_D-2 {
+  width: 90px;
+  height: 127px;
+  background-position: 0 -381px;
+}
+
+.card-_0025_D-A {
+  width: 90px;
+  height: 127px;
+  background-position: -90px -381px;
+}
+
+.card-_0026_H-K {
+  width: 90px;
+  height: 127px;
+  background-position: -180px -381px;
+}
+
+.card-_0027_H-Q {
+  width: 90px;
+  height: 127px;
+  background-position: -270px -381px;
+}
+
+.card-_0028_H-J {
+  width: 90px;
+  height: 127px;
+  background-position: -360px -381px;
+}
+
+.card-_0029_H-10 {
+  width: 90px;
+  height: 127px;
+  background-position: -450px -381px;
+}
+
+.card-_0030_H-9 {
+  width: 90px;
+  height: 127px;
+  background-position: -540px -381px;
+}
+
+.card-_0031_H-8 {
+  width: 90px;
+  height: 127px;
+  background-position: -630px -381px;
+}
+
+.card-_0032_H-7 {
+  width: 90px;
+  height: 127px;
+  background-position: 0 -508px;
+}
+
+.card-_0033_H-6 {
+  width: 90px;
+  height: 127px;
+  background-position: -90px -508px;
+}
+
+.card-_0034_H-5 {
+  width: 90px;
+  height: 127px;
+  background-position: -180px -508px;
+}
+
+.card-_0035_H-4 {
+  width: 90px;
+  height: 127px;
+  background-position: -270px -508px;
+}
+
+.card-_0036_H-3 {
+  width: 90px;
+  height: 127px;
+  background-position: -360px -508px;
+}
+
+.card-_0037_H-2 {
+  width: 90px;
+  height: 127px;
+  background-position: -450px -508px;
+}
+
+.card-_0038_H-A {
+  width: 90px;
+  height: 127px;
+  background-position: -540px -508px;
+}
+
+.card-_0039_S-K {
+  width: 90px;
+  height: 127px;
+  background-position: -630px -508px;
+}
+
+.card-_0040_S-Q {
+  width: 90px;
+  height: 127px;
+  background-position: 0 -635px;
+}
+
+.card-_0041_S-J {
+  width: 90px;
+  height: 127px;
+  background-position: -90px -635px;
+}
+
+.card-_0042_S-10 {
+  width: 90px;
+  height: 127px;
+  background-position: -180px -635px;
+}
+
+.card-_0043_S-9 {
+  width: 90px;
+  height: 127px;
+  background-position: -270px -635px;
+}
+
+.card-_0044_S-8 {
+  width: 90px;
+  height: 127px;
+  background-position: -360px -635px;
+}
+
+.card-_0045_S-7 {
+  width: 90px;
+  height: 127px;
+  background-position: -450px -635px;
+}
+
+.card-_0046_S-6 {
+  width: 90px;
+  height: 127px;
+  background-position: -540px -635px;
+}
+
+.card-_0047_S-5 {
+  width: 90px;
+  height: 127px;
+  background-position: -630px -635px;
+}
+
+.card-_0048_S-4 {
+  width: 90px;
+  height: 127px;
+  background-position: -720px 0;
+}
+
+.card-_0049_S-3 {
+  width: 90px;
+  height: 127px;
+  background-position: -720px -127px;
+}
+
+.card-_0050_S-2 {
+  width: 90px;
+  height: 127px;
+  background-position: -720px -254px;
+}
+
+.card-_0051_S-A {
+  width: 90px;
+  height: 127px;
+  background-position: -720px -381px;
+}
+
+.card-_0053_BACK {
+  width: 90px;
+  height: 127px;
+  background-position: -720px -508px;
+}
