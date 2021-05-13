@@ -181,17 +181,23 @@ textarea {
 }
 
 .table-container {
-    width: 790px;
-    min-height: 440px;
-    left: 0;
-    right: 0;
+    width: 50%;
+    height: 450px;
     margin: 0 auto;
-    margin-top: 140px;
-    z-index: 10;
+    border-radius: 50%;
+    padding: 24% 10% 0 10%;
+    text-align: center;
+    border-top-left-radius: 245px 240px;
+    border-top-right-radius: 245px 240px;
+    border-bottom-left-radius: 245px 240px;
+    border-bottom-right-radius: 245px 240px;
+    border: 10px solid;
+    border-image-source: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%);
+    border-image-slice: 1;
 }
 
 .table-container:before {
-    background: url("../img/poker/table.png") center 10px;
+    background: url("../img/poker/table1.png") center 10px;
     background-size: contain;
     background-repeat: no-repeat;
     top: 0;
@@ -215,7 +221,7 @@ textarea {
     top: 0;
     margin-top: 80px;
     z-index: -1;
-    background: url("../img/poker/table-shadow.png") no-repeat;
+    background: url("../img/poker/table-shadow1.png") no-repeat;
     background-size: cover;
 }
 
@@ -242,7 +248,7 @@ textarea {
 
 .player-2 {
     left: 140px;
-    top: -100px;
+    top: -50px;
     position: absolute;
     bottom: auto;
 }
@@ -289,14 +295,13 @@ textarea {
 }
 
 .player-avatar_holder {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 100px;
     z-index: 10;
     display: block;
     background: #333;
     position: absolute;
-    border: 1px solid #222;
     /* Original example */
     background-image: linear-gradient(#ccc, #777);
     /* Explicitly state the location center point */
@@ -318,7 +323,7 @@ textarea {
 }
 
 .player-item.a-right .player-avatar_holder {
-    right: 0;
+    right: 0px;
     top: 0;
     bottom: 0;
     left: auto;
@@ -336,8 +341,9 @@ textarea {
 }
 
 .avatar-holder {
-    width: 80px;
-    height: 80px;
+    border: 1px solid #fff;
+    width: 64px;
+    height: 64px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -368,13 +374,13 @@ textarea {
 }
 
 .player-status_holder {
-    width: 260px;
-    height: 70px;
+    width: 210px;
+    height: 60px;
     border-radius: 60px;
     background: #555;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 40%;
+    transform: translateY(-60%);
     z-index: 5;
     background-image: linear-gradient(#aaa, #666);
     border: 1px solid #333;
@@ -382,12 +388,12 @@ textarea {
 
 .player-status_inner {
     z-index: 10;
-    width: 250px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     background: #222;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 58%;
+    transform: translateY(-60%);
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -447,10 +453,10 @@ textarea {
 .name-holder,
 .cash-status {
     width: 100%;
-    height: 30px;
+    height: 25px;
     display: block;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 25px;
     color: #999;
     text-align: center;
 }
@@ -483,8 +489,7 @@ textarea {
 
 .player-item.a-right .name-holder,
 .player-item.a-right .cash-status {
-    padding-right: 80px;
-    padding-left: 1rem;
+    text-align: center;
 }
 
 .player-item.a-left .name-holder,
@@ -496,7 +501,7 @@ textarea {
 .player-status_progress {
     border-radius: 6px;
     position: absolute;
-    width: 180px;
+    width: 140px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -532,9 +537,8 @@ textarea {
 }
 
 .player-status_progress .player-progress_inner {
-    background: #222;
     height: 26px;
-    width: 174px;
+    width: 130px;
     border-radius: 3px;
     left: 0;
     right: 0;
@@ -576,10 +580,8 @@ textarea {
     right: 0;
     top: auto;
     bottom: 0;
-    height: 26px;
+    height: 28px;
     display: block;
-    background: url("../img/poker/progress_stripe.png") repeat-x bottom right;
-    opacity: 0.5;
     z-index: 10;
 }
 
@@ -836,4 +838,8 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.cash {
+    color: #00d607;
 }

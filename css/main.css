@@ -8,6 +8,7 @@ body {
     transform-origin: top center;
     -ms-transform: scale(1);
     transform: scale(1);
+    margin-top: 8%;
 }
 
 .ui-controller {
