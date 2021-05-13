@@ -184,16 +184,8 @@ textarea {
     width: 50%;
     height: 450px;
     margin: 0 auto;
-    border-radius: 50%;
     padding: 24% 10% 0 10%;
     text-align: center;
-    border-top-left-radius: 245px 240px;
-    border-top-right-radius: 245px 240px;
-    border-bottom-left-radius: 245px 240px;
-    border-bottom-right-radius: 245px 240px;
-    border: 10px solid;
-    border-image-source: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%);
-    border-image-slice: 1;
 }
 
 .table-container:before {
@@ -210,6 +202,12 @@ textarea {
     height: 100%;
     z-index: 1;
     display: block;
+    border: 20px solid #000;
+    border-top-left-radius: 245px 240px !important;
+    border-top-right-radius: 245px 240px;
+    border-bottom-left-radius: 245px 240px;
+    border-bottom-right-radius: 245px 240px;
+    background: radial-gradient(#147c3c, #01471c, #002910);
 }
 
 .table-container:after {
@@ -221,7 +219,7 @@ textarea {
     top: 0;
     margin-top: 80px;
     z-index: -1;
-    background: url("../img/poker/table-shadow1.png") no-repeat;
+    background: url("../img/poker/table-shadow.png") no-repeat;
     background-size: cover;
 }
 
@@ -838,6 +836,10 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.cash {
+    color: #00d607;
 }
 
 .cash {
