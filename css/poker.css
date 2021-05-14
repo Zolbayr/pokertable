@@ -181,15 +181,19 @@ textarea {
 }
 
 .table-container {
-    width: 50%;
+    width: 48%;
     height: 450px;
     margin: 0 auto;
-    padding: 24% 10% 0 10%;
+    padding: 10% 10% 0 10%;
     text-align: center;
+    border: 20px solid rgba(0, 0, 0, 1);
+    border-top-left-radius: 265px 240px;
+    border-top-right-radius: 265px 240px;
+    border-bottom-left-radius: 265px 240px;
+    border-bottom-right-radius: 265px 240px;
 }
 
 .table-container:before {
-    background: url("../img/poker/table1.png") center 10px;
     background-size: contain;
     background-repeat: no-repeat;
     top: 0;
@@ -202,25 +206,29 @@ textarea {
     height: 100%;
     z-index: 1;
     display: block;
-    border: 20px solid #000;
-    border-top-left-radius: 245px 240px !important;
-    border-top-right-radius: 245px 240px;
-    border-bottom-left-radius: 245px 240px;
-    border-bottom-right-radius: 245px 240px;
-    background: radial-gradient(#147c3c, #01471c, #002910);
+    border: 15px solid rgb(10, 10, 10);
+    border-top-left-radius: 230px 213px;
+    border-top-right-radius: 230px 213px;
+    border-bottom-left-radius: 230px 213px;
+    border-bottom-right-radius: 230px 213px;
+    background: radial-gradient(#0c8309, #0b7008, #073a04);
 }
 
 .table-container:after {
-    content: "";
+    content: '';
+    border: 20px solid rgba(0, 0, 0, 0.01);
     position: absolute;
+    margin: 12px;
     left: 0;
     right: 0;
     bottom: 0px;
     top: 0;
-    margin-top: 80px;
-    z-index: -1;
-    background: url("../img/poker/table-shadow.png") no-repeat;
+    z-index: 1;
     background-size: cover;
+    border-top-left-radius: 225px 240px;
+    border-top-right-radius: 225px 240px;
+    border-bottom-left-radius: 225px 240px;
+    border-bottom-right-radius: 225px 240px;
 }
 
 .players {
@@ -241,11 +249,11 @@ textarea {
 
 .player-1 {
     top: 30px;
-    left: -110px;
+    left: -160px;
 }
 
 .player-2 {
-    left: 140px;
+    left: 0px;
     top: -50px;
     position: absolute;
     bottom: auto;
@@ -260,18 +268,18 @@ textarea {
 
 .player-4 {
     top: 30px;
-    right: -110px;
+    right: -160px;
 }
 
 .player-5 {
     top: 50%;
     transform: translateY(-50%);
-    right: -220px;
+    right: -240px;
 }
 
 .player-6 {
-    right: -23px;
-    bottom: 12px;
+    right: -123px;
+    bottom: -22px;
 }
 
 .player-7 {
@@ -282,14 +290,14 @@ textarea {
 }
 
 .player-8 {
-    left: -23px;
-    bottom: 12px;
+    left: -123px;
+    bottom: -22px;
 }
 
 .player-9 {
     top: 50%;
     transform: translateY(-50%);
-    left: -220px;
+    left: -240px;
 }
 
 .player-avatar_holder {
@@ -375,13 +383,10 @@ textarea {
     width: 210px;
     height: 60px;
     border-radius: 60px;
-    background: #555;
     position: absolute;
     top: 40%;
     transform: translateY(-60%);
     z-index: 5;
-    background-image: linear-gradient(#aaa, #666);
-    border: 1px solid #333;
 }
 
 .player-status_inner {
@@ -392,8 +397,9 @@ textarea {
     position: absolute;
     top: 58%;
     transform: translateY(-60%);
-    left: 0;
+    left: 40px;
     right: 0;
+    border: 2px solid #ccc;
     margin: 0 auto;
     border-radius: 60px;
     -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.7);
@@ -491,9 +497,7 @@ textarea {
 }
 
 .player-item.a-left .name-holder,
-.player-item.a-left .cash-status {
-    padding-left: 80px;
-    padding-right: 1rem;
+.player-item.a-left .cash-status { 
 }
 
 .player-status_progress {
@@ -590,11 +594,11 @@ textarea {
     width: 190px;
     height: 130px;
     margin: 0 auto;
-    top: -50px;
+    top: -90px;
 }
 
 .player-self .player-card {
-    top: -75px;
+    top: -90px;
 }
 
 .player-card_item {
