@@ -1,168 +1,159 @@
 .pokerchip {
-  left: 0;
-  font-size: 11px;
-  text-align: center;
-  line-height: 30px;
-  position: absolute;
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 32px;
-  height: 30px;
-  overflow: hidden;
+    left: 0;
+    font-size: 11px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 32px;
+    height: 30px;
+    overflow: hidden;
 }
 
 .pokerchip {
-  bottom: 0px;
+    bottom: 0px;
 }
 
-
 .pokerchip.chip-5k {
-  background: url("../img/poker/5k.png") center center no-repeat;
+    background: url("../img/poker/5k.png") center center no-repeat;
 }
 
 .pokerchip.chip-10k {
-  background: url("../img/poker/10k.png") center center no-repeat;
+    background: url("../img/poker/10k.png") center center no-repeat;
 }
 
 .pokerchip.chip-20k {
-  background: url("../img/poker/20k.png") center center no-repeat;
+    background: url("../img/poker/20k.png") center center no-repeat;
 }
 
 .pokerchip.chip-50k {
-  background: url("../img/poker/50k.png") center center no-repeat;
+    background: url("../img/poker/50k.png") center center no-repeat;
 }
 
 .pokerchip.chip-100k {
-  background: url("../img/poker/100k.png") center center no-repeat;
+    background: url("../img/poker/100k.png") center center no-repeat;
 }
 
 .pokerchip.chip-500k {
-  background: url("../img/poker/500k.png") center center no-repeat;
+    background: url("../img/poker/500k.png") center center no-repeat;
 }
 
 .pokerchip.chip-1m {
-  background: url("../img/poker/1m.png") center center no-repeat;
+    background: url("../img/poker/1m.png") center center no-repeat;
 }
 
 .pokerchip.chip-5m {
-  background: url("../img/poker/5m.png") center center no-repeat;
+    background: url("../img/poker/5m.png") center center no-repeat;
 }
 
 .player-bet {
-  z-index: 100;
+    z-index: 100;
 }
 
 .bet-spot {
-  bottom: 245px;
-  position: absolute;
-  margin: 0 auto;
-  width: auto;
-  height: 30px;
-  display: inline-block;
-  text-align: center;
+    bottom: 245px;
+    position: absolute;
+    margin: 0 auto;
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
 }
 
 .chip-column {
-  display: inline-block;
-  width: 32px;
-  position: relative;
-  height: 32px;
-  margin-right: 2px;
+    display: inline-block;
+    width: 32px;
+    position: relative;
+    height: 32px;
+    margin-right: 2px;
 }
 
-
 .player-1 .player-bet {
-  position: absolute;
-  top: 74px;
-  width: 32px;
-  right: -46px;
+    position: absolute;
+    top: 74px;
+    width: 32px;
+    right: -46px;
 }
 
 .player-2 .player-bet {
-  position: absolute;
-  top: 150px;
-  width: 20px;
-  left: 217px;
+    position: absolute;
+    top: 150px;
+    width: 20px;
+    left: 217px;
 }
-
 
 .player-3 .player-bet {
-  position: absolute;
-  top: 142px;
-  left: 22px;
+    position: absolute;
+    top: 142px;
+    left: 22px;
 }
 
-
 .player-4 .player-bet {
-  position: absolute;
-  top: 72px;
-  left: -40px;
+    position: absolute;
+    top: 72px;
+    left: -40px;
 }
 
 .player-5 .player-bet {
-  position: absolute;
-  top: 30px;
-  left: -40px;
+    position: absolute;
+    top: 30px;
+    left: -40px;
 }
-
 
 .player-6 .player-bet {
-  position: absolute;
-  top: -50px;
-  left: -40px;
+    position: absolute;
+    top: -50px;
+    left: -40px;
 }
 
-
 .player-7 .player-bet {
-  position: absolute;
-  top: -117px;
-  left: 140px;
+    position: absolute;
+    top: -117px;
+    left: 140px;
 }
 
 .player-8 .player-bet {
-  position: absolute;
-  top: -50px;
-  left: 285px;
+    position: absolute;
+    top: -50px;
+    left: 285px;
 }
 
 .player-9 .player-bet {
-  position: absolute;
-  top: 35px;
-  right: -52px;
+    position: absolute;
+    top: 35px;
+    right: -52px;
 }
 
-
-
 .bet-indicator {
-  display: block;
-  top: 5px;
-  position: absolute;
-  left: 20px;
-  z-index: -1;
-  padding: 0;
-  color: #fff
+    display: block;
+    top: 5px;
+    left: 20px;
+    z-index: -1;
+    padding: 0;
+    color: #fff
 }
 
 .a-left .bet-indicator {
-  right: 13px;
-  left: auto;
+    right: 13px;
+    left: auto;
 }
 
 .bet-spot .bet-indicator {
-  left: 0;
-  top: auto;
-  right: 0;
-  text-align: center;
-  bottom: -20px;
+    left: 0;
+    top: auto;
+    right: 0;
+    text-align: center;
+    bottom: -20px;
 }
 
 .bet-indicator span {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 6px;
-  padding: 2px 12px;
-  font-size: 12px;
-  line-height: 1.3;
-  padding-left: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding: 2px 12px;
+    font-size: 12px;
+    line-height: 1.3;
+    padding-left: 20px;
 }

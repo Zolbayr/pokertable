@@ -222,7 +222,7 @@ body {
 
 :root {
     --button-height: 50px;
-    --color-text: rgba(0, 0, 0, 0.65);
+    --color-text: rgba(255, 255, 255, 1);
     --color-text-shadow: rgba(255, 255, 255, 0.15);
     --color-page-bg: #b9b5aa;
     --color-bg: #899095;
@@ -235,9 +235,9 @@ body {
 }
 
 .red-button {
-    --color-bg: #e44e55;
-    --color-bg-light: #e47479;
-    --color-bg-dark: #d13239;
+    --color-bg: #cc0406;
+    --color-bg-light: #f7000b00;
+    --color-bg-dark: #4b020a;
 }
 
 .retro-button {
@@ -253,7 +253,7 @@ body {
     border-radius: 6px;
     border: 0;
     padding: 0 20px;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
     color: var(--color-text);
     text-shadow: 1px 1px var(--color-text-shadow);
@@ -530,7 +530,7 @@ body.modal-active {
         width: 75%;
         height: 500px;
     }
-        .poker-container {
+    .poker-container {
         padding-top: 5%;
     }
 }
@@ -564,13 +564,13 @@ body.modal-active {
         padding-top: 10%;
     }
     .player-6 {
-    right: -190px;
-    bottom: 82px;
+        right: -190px;
+        bottom: 82px;
     }
     .player-8 {
-    left: -190px;
-    bottom: 82px;
-}
+        left: -190px;
+        bottom: 82px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -581,7 +581,6 @@ body.modal-active {
     .poker-container {
         padding-top: 20%;
     }
-
 }
 
 v @media (max-width: 1366px) {

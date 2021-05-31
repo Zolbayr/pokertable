@@ -186,7 +186,6 @@ textarea {
     height: 100%;
     z-index: 10;
     position: absolute;
-    border: 1px dashed #fff;
     border-radius: 250px;
 }
 
@@ -270,8 +269,8 @@ textarea {
 }
 
 .player-1 {
-    top: 30px;
-    left: -160px;
+    top: 60px;
+    left: -180px;
 }
 
 .player-2 {
@@ -282,25 +281,25 @@ textarea {
 }
 
 .player-3 {
-    right: 140px;
-    top: -100px;
+    right: 100px;
+    top: -80px;
     position: absolute;
     bottom: auto;
 }
 
 .player-4 {
-    top: 30px;
-    right: -160px;
+    top: 60px;
+    right: -180px;
 }
 
 .player-5 {
-    top: 50%;
-    transform: translateY(-50%);
-    right: -240px;
+    top: 60%;
+    transform: translateY(-60%);
+    right: -180px;
 }
 
 .player-6 {
-    right: -123px;
+    right: 0px;
     bottom: -22px;
 }
 
@@ -312,14 +311,13 @@ textarea {
 }
 
 .player-8 {
-    left: -123px;
     bottom: -22px;
 }
 
 .player-9 {
-    top: 50%;
-    transform: translateY(-50%);
-    left: -240px;
+    top: 60%;
+    transform: translateY(-60%);
+    left: -180px;
 }
 
 .player-avatar_holder {
@@ -370,8 +368,8 @@ textarea {
 
 .avatar-holder {
     border: 1px solid #fff;
-    width: 64px;
-    height: 64px;
+    width: 75px;
+    height: 75px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -414,7 +412,7 @@ textarea {
 .player-status_inner {
     z-index: 10;
     width: 200px;
-    height: 50px;
+    height: 60px;
     background: #222;
     position: absolute;
     top: 58%;
@@ -423,7 +421,7 @@ textarea {
     right: 0;
     border: 2px solid #ccc;
     margin: 0 auto;
-    border-radius: 60px;
+    border-radius: 15px;
     -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.7);
     box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.7);
@@ -528,7 +526,7 @@ textarea {
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: 15px;
+    bottom: 30px;
     z-index: 1;
     height: 30px;
     background-image: linear-gradient(#aaa, #666);
